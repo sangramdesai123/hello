@@ -1,1 +1,19 @@
 these is 1 st file in git hub for learning ubuntu and managing git hub
+
+Problem:i was not able to install any application using ubuntu terminal sudo app-get install command.it give me following error.
+
+error while dual booting :
+E: Could not get lock /var/lib/dpkg/lock - open (11 Resource temporarily unavailable)
+E: Unable to lock the administration directory (/var/lib/dpkg/) is another process using it?
+
+Solution:
+
+You can delete the lock file with the following command:
+
+	sudo rm /var/lib/apt/lists/lock
+
+You may also need to delete the lock file in the cache directory
+
+	sudo rm /var/cache/apt/archives/lock
+	sudo rm /var/lib/dpkg/lock
+After that, try opening Synaptic again.
