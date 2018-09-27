@@ -1,5 +1,5 @@
-# hello
-just another respository
+# Common repo
+just another respository to teach github
 
 
 # JAVA String/StringBuffer 
