@@ -1,0 +1,33 @@
+n1 = input('start n1');
+N1 = input('enter n1');
+x = [];
+for i = 1: N1
+  x(i) = input('enter val');
+  end
+n2 = input('start n2');  
+N2 = input('enter N2');
+h = [];
+
+for i = 1:N2
+  h(i) = input('enter val');
+  end
+
+N = N1 + N2 - 1;
+mi =  n1 - (n2 + N2 - 1);
+mf = mi + N - 1;
+ 
+y = []; 
+for i = mi : mf
+  ans = 0;
+  for j = 0 : N1 - 1
+    if(((j - i + 1) >= 1) && ((j - i + 1) <= N2))
+      ans = ans + x(j + 1) * h(j - i + 1);
+     end
+     end
+     y = [y ans];
+     end
+
+
+u = mi:1:mf;
+subplot(1,1,1);
+stem(u, y);
