@@ -1,0 +1,1 @@
+This is just a commit file. All the string functions of java.
