@@ -1,0 +1,38 @@
+## Table of Contents
+	* Editors
+	* Tag Structure
+	* Text Structure
+	* Links
+	* Other tags
+		* Images
+		* Line Breaks
+		* Tables
+	* Making Things Gorgeous The Wrong Way
+		* Colors
+		* Width and Height
+		* Borders
+		* Text Styles
+	* The `<head>` tag
+	* Putting it all together so far
+	* Classes and IDs and other Segregation
+		* Classes
+		* IDs
+		* Other Segregation
+			* The `<span>` tag
+			* The `<div>` tag
+				* Background color
+				* Floating
+				* Positioning
+				* Margins and Padding
+				* Z-Index
+		* The `<link>` tag
+		* Commenting
+			* HTML Comments
+			* CSS Comments
+		* Other Developer Joys
+			* Forms
+			* HTML5 and CSS3
+			* How To Meet Losers (Get it? HTML Jokes are the best...)        
+ * And now, the end is near
+
+## HTML Time. Let's Go.
